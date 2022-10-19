@@ -61,6 +61,13 @@ body {
 	width: 100%;
 }
 
+#input-container .errorMessage {
+	color: #DE6000;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 #input-container button {
 	background-color: transparent;
 	border: 2px solid #DE6000;
@@ -74,8 +81,10 @@ body {
 	width: 50%;
 }
 
-#input-container button:hover{
+#input-container button:hover {
+	background-color: #DE6000;
 	cursor: pointer;
+	transition: 0.4s;
 }
 
 .hasAccountText span{

@@ -1,0 +1,172 @@
+@import url('http://fonts.cdnfonts.com/css/keep-calm');
+
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+*{
+	font-family: "Keep Calm", sans-serif;
+	color: #fff;
+}
+
+#nowPlayBarContainer {
+	width: 100%;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    min-width: 620px;
+}
+
+#nowPlayBar {
+	display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+#nowPlayLeft, #nowPlayRight {
+	width: 30%;
+	min-width: 180px;
+}
+
+#nowPlayCenter {
+	width: 40%;
+	max-width: 700px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nowPlayBar .content {
+	width: 100%;
+	height: 57px;
+}
+
+.playerControls .buttons {
+	margin: 0 auto;
+    display: table;
+}
+
+.controlButton {
+	background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.controlButton img {
+	width: 20px;
+	height: 20px;
+}
+
+.controlButton.play img,
+.controlBytton.pause img {
+	width: 32px;
+	height: 32px;
+}
+
+.controlButton:hover{
+	cursor: pointer;
+}
+
+.progressTime {
+	color: #a0a0a0;
+    font-size: 12px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.progressBar {
+	height: 12px;
+    width: 100%;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.playbackBar {
+	display: flex;
+}
+
+.progressBarBackground {
+	background-color: #404040;
+	width: 100%;
+	height: 4px;
+	border-radius: 2px;
+}
+
+.progressBarBackground .progress {
+	background-color: #a0a0a0a0;
+	height: 4px;
+	width: 0;
+	border-radius: 2px;
+}
+
+.playbackBar .progressBar {
+	margin-top: 3px;
+}
+
+#nowPlayLeft .albumArt {
+	height: 100%;
+	max-width: 57px;
+	margin-right: 15px;
+	float: left;
+	background-size: cover; /* para redimensionar a imagem, para cobrir todo o quadrado*/
+}
+
+#nowPlayLeft .trackInfo {
+	display: table;
+}
+
+#nowPlayLeft .trackInfo .trackTitle {
+	margin: 6px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+#nowPlayLeft .trackInfo .trackChannel span{
+	font-size: 12px;
+	color: #A0A0A0;
+}
+
+#nowPlayRight {
+	position: relative;
+	margin-top: 16px;
+}
+
+.volumeBar {
+	width: 180px;
+	position: absolute;
+	right: 0;
+}
+
+.volumeBar .progressBar {
+	width: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

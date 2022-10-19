@@ -52,7 +52,7 @@
 				<form id="login-form" action="register.php" method="POST">
 					<h2>faça seu login</h2>
 					<p>
-						<?php echo $account->getError(Constants::$loginFailed); ?>
+						<span class="errorMessage"><?php echo $account->getError(Constants::$loginFailed); ?></span>
 						<label for="login-user">Usuário</label>
 						<input id="login-user" type="text" name="loginUserName" placeholder="Login" required>
 					</p>
@@ -122,7 +122,7 @@
 				<span id="welcome-rectangle"></span>
 				<h1>Bem vindo ao</h1>
 				<h1 id="welcome-cactCast">CactCast</h1>
-				<h3 id="welcome-info">O seu melhor site de podcast aqui</h3>
+				<h3 id="welcome-info">O seu melhor site de podcast está aqui</h3>
 				<div id="loader">
 					<span class="stroker"></span>
 					<span class="stroker"></span>

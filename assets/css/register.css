@@ -1,0 +1,167 @@
+@import url('http://fonts.cdnfonts.com/css/keep-calm');
+
+html, 
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+    background-color: #000000;
+    font-size: 14px;
+    min-width: 720px;
+    color: #fff;
+}
+
+*{
+    font-family: "Keep Calm", sans-serif;
+}
+
+#background {
+	background-color: #000;
+    background-image: url(../images/fundocactcast.png);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#loginContainer * {
+	
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;
+}
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    position: relative;
+    top: 140px;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+.errorMessage {
+    font-size: 12px;
+    color: #DE6000;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+    font-family: "Arial";
+	display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    color: #fff;
+}
+
+#inputContainer label {
+	color: #fff;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+}
+
+#inputContainer button {
+	background-color: transparent;
+    border: 2px solid #DE6000;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 70%;
+}
+
+#inputContainer button:hover {
+	cursor: pointer;
+    background-color: #DE6000;
+    transition: 0.5s;
+}
+
+.hasAccountText span {
+	font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hasAccountText {
+	text-align: center;
+}
+
+#registerForm,
+#loginForm {
+	display: none;
+}
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+    width: 650px;
+    text-align: center;
+   padding-top: 200px;
+}
+
+#loginText .welcome {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#loginText .cactCast {
+    color: #DE6000;
+    font-size: 60px;
+    font-weight: bold;
+    margin: -20px;
+}
+
+#loginText h2 {
+    margin: 35px 0;
+    font-size: 20px;
+}
+
+#loginText .welcomeInfo {
+    padding: 30px;
+}
+
+}
+
+#inputContainer .errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
+}
+
+#infoGroup {
+    color: #fff;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+}
+
+#logoCactCast {
+    width: 100px;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
